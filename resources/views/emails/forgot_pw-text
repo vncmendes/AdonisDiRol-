@@ -1,0 +1,7 @@
+Recuperação de senha
+
+Foi feita uma solicitação de recuperação de senha para o seu e-mail ({{ email }}). Se não foi você, tome cuidado!
+
+Para continuar com a recuperação, utilize o token {{ token }} ou clique no link abaixo
+
+{{ link }} Criar nova senha
