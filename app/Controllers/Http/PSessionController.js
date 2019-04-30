@@ -5,7 +5,7 @@ class PSessionController {
     const { email, password } = request.only(['email', 'password'])
     console.log(auth)
 
-    const token = await auth.authenticator('jwt').attempt(email, password)
+    const token = await auth.authenticator('provider').attempt(email, password)
     return token
   }
 }
