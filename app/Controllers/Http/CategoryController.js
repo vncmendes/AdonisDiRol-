@@ -5,12 +5,12 @@
 /** @typedef {import('@adonisjs/framework/src/View')} View */
 
 /**
- * Resourceful controller for interacting with tickets
+ * Resourceful controller for interacting with categories
  */
-class TicketController {
+class CategoryController {
   /**
-   * Show a list of all tickets.
-   * GET tickets
+   * Show a list of all categories.
+   * GET categories
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -21,8 +21,8 @@ class TicketController {
   }
 
   /**
-   * Render a form to be used for creating a new ticket.
-   * GET tickets/create
+   * Render a form to be used for creating a new category.
+   * GET categories/create
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -33,8 +33,8 @@ class TicketController {
   }
 
   /**
-   * Create/save a new ticket.
-   * POST tickets
+   * Create/save a new category.
+   * POST categories
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -44,8 +44,8 @@ class TicketController {
   }
 
   /**
-   * Display a single ticket.
-   * GET tickets/:id
+   * Display a single category.
+   * GET categories/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -56,8 +56,8 @@ class TicketController {
   }
 
   /**
-   * Render a form to update an existing ticket.
-   * GET tickets/:id/edit
+   * Render a form to update an existing category.
+   * GET categories/:id/edit
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -68,8 +68,8 @@ class TicketController {
   }
 
   /**
-   * Update ticket details.
-   * PUT or PATCH tickets/:id
+   * Update category details.
+   * PUT or PATCH categories/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -79,8 +79,8 @@ class TicketController {
   }
 
   /**
-   * Delete a ticket with id.
-   * DELETE tickets/:id
+   * Delete a category with id.
+   * DELETE categories/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -90,4 +90,4 @@ class TicketController {
   }
 }
 
-module.exports = TicketController
+module.exports = CategoryController

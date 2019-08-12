@@ -14,7 +14,7 @@ class UserSchema extends Schema {
       table.string('password', 60).notNullable()
       table.string('token')
       table.timestamp('token_created_at')
-      table.integer('bgtticket', 20).default(0)
+      table.integer('bgt_ticket', 20).default(0)
       table.timestamps()
     })
   }

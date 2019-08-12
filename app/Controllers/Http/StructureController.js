@@ -5,12 +5,12 @@
 /** @typedef {import('@adonisjs/framework/src/View')} View */
 
 /**
- * Resourceful controller for interacting with tickets
+ * Resourceful controller for interacting with structures
  */
-class TicketController {
+class StructureController {
   /**
-   * Show a list of all tickets.
-   * GET tickets
+   * Show a list of all structures.
+   * GET structures
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -21,8 +21,8 @@ class TicketController {
   }
 
   /**
-   * Render a form to be used for creating a new ticket.
-   * GET tickets/create
+   * Render a form to be used for creating a new structure.
+   * GET structures/create
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -33,8 +33,8 @@ class TicketController {
   }
 
   /**
-   * Create/save a new ticket.
-   * POST tickets
+   * Create/save a new structure.
+   * POST structures
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -44,8 +44,8 @@ class TicketController {
   }
 
   /**
-   * Display a single ticket.
-   * GET tickets/:id
+   * Display a single structure.
+   * GET structures/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -56,8 +56,8 @@ class TicketController {
   }
 
   /**
-   * Render a form to update an existing ticket.
-   * GET tickets/:id/edit
+   * Render a form to update an existing structure.
+   * GET structures/:id/edit
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -68,8 +68,8 @@ class TicketController {
   }
 
   /**
-   * Update ticket details.
-   * PUT or PATCH tickets/:id
+   * Update structure details.
+   * PUT or PATCH structures/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -79,8 +79,8 @@ class TicketController {
   }
 
   /**
-   * Delete a ticket with id.
-   * DELETE tickets/:id
+   * Delete a structure with id.
+   * DELETE structures/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -90,4 +90,4 @@ class TicketController {
   }
 }
 
-module.exports = TicketController
+module.exports = StructureController
